@@ -38,4 +38,4 @@
 
 ## English
 
-> The courses have just begun. Passed so far, only a week of training. And so technical knowledge.
+> The courses have just begun. Passed so far, only a week of training. And so technical knowledge. Fanks
