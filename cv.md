@@ -4,7 +4,7 @@
 
 ## First Name, Last Name:
 
-> Alexandr Navumenka
+> Alexandr Navumenko
 
 ## Contact Info:
 
