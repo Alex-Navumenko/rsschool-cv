@@ -2,19 +2,26 @@ body {
   font-size: 16px;
 }
 
+h1 {
+  text-transform: uppercase;
+  color: #eaecef;
+  
+}
+
 h2 {
   font-size: 24px;
   font-weight: 600;
   line-height: 1.5;
   margin-top: 24px;
   margin-bottom: 16px;
+  color: #eaecef;
   border-bottom: 1px solid #eaecef;
 }
 
 p {
   font-size: 16px;
   line-height: 1.5;
-  color: #6a737d;
+  color: #eaecef;
   padding-right: 10px;
   padding-left: 10px;
   border-left: 2px solid #eaecef;
@@ -24,18 +31,123 @@ p {
 li {
   font-size: 16px;
   margin-bottom: 10px;
+  color: #eaecef;
 }
 
 a {
-  color: #0366d6;
+  color: #eaecef;
   text-decoration: none;
 }
 a:hover {
-  color: #0366d6;
-  text-decoration: underline;
+  color: #333;
+  transition: all 1s;
+  
 }
 .conteiner {
   max-width: 1024px;
   margin: auto;
+  background-color: grey;
 }
 
+.profilePhoto {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ff5c4b
+}
+
+.summaryInfo {
+  margin: 20px;
+  border: 3px dashed #eaecef;
+}
+
+.summaryTitle {
+  margin: 10px;
+}
+
+.summaryText {
+  margin: 20px;
+}
+
+.skillsInfo {
+  margin: 20px;
+  border: 3px dashed #eaecef;
+}
+
+.skillsTitle {
+  margin: 10px;
+}
+
+.skillsText {
+  margin: 20px;
+}
+
+.codeInfo {
+  margin: 20px;
+  border: 3px dashed #eaecef;
+}
+
+.codeTitle {
+  margin: 10px;
+}
+
+.codeText {
+  margin: 20px;
+}
+
+.experienceInfo {
+  margin: 20px;
+  border: 3px dashed #eaecef;
+}
+
+.experienceTitle {
+  margin: 10px;
+}
+
+.experienceText {
+  margin: 20px;
+}
+
+.educationInfo {
+  margin: 20px;
+  border: 3px dashed #eaecef;
+}
+
+.educationTitle {
+  margin: 10px;
+}
+
+.educationText {
+  margin: 20px;
+}
+
+.englishInfo {
+  margin: 20px;
+  border: 3px dashed #eaecef;
+}
+
+.englishTitle {
+  margin: 10px;
+}
+
+.englishText {
+  margin: 20px;
+}
+
+.list li {
+  display: inline;
+  margin: 10px;
+  padding-right: 20px;
+  border-right: 1px solid #eaecef;
+}
+
+.list li:nth-last-child(1) {
+  border: none;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #ff5c4b;
+  padding: 20px;
+  z-index: 10;
+}
